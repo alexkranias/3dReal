@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED17F632B80A2CA0053EB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED17F622B80A2CA0053EB56 /* AppDelegate.swift */; };
+		CED17F652B80A2CA0053EB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED17F642B80A2CA0053EB56 /* SceneDelegate.swift */; };
+		CED17F672B80A2CA0053EB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED17F662B80A2CA0053EB56 /* ViewController.swift */; };
+		CED17F6A2B80A2CA0053EB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED17F682B80A2CA0053EB56 /* Main.storyboard */; };
+		CED17F6C2B80A2D00053EB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED17F6B2B80A2D00053EB56 /* Assets.xcassets */; };
+		CED17F6F2B80A2D00053EB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED17F6D2B80A2D00053EB56 /* LaunchScreen.storyboard */; };
+		CED17F7A2B80A2D00053EB56 /* _d_berealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED17F792B80A2D00053EB56 /* _d_berealTests.swift */; };
+		CED17F842B80A2D00053EB56 /* _d_berealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED17F832B80A2D00053EB56 /* _d_berealUITests.swift */; };
+		CED17F862B80A2D10053EB56 /* _d_berealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED17F852B80A2D10053EB56 /* _d_berealUITestsLaunchTests.swift */; };
+		CED17F932B814BA10053EB56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED17F922B814BA10053EB56 /* GoogleService-Info.plist */; };
+		CED17F942B814BA20053EB56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED17F922B814BA10053EB56 /* GoogleService-Info.plist */; };
+		CED17F952B814BA20053EB56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED17F922B814BA10053EB56 /* GoogleService-Info.plist */; };
+		FEDFDB281E3026F1EBF17685 /* Pods_3d_bereal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B1B87E678447214301ADAD /* Pods_3d_bereal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED17F762B80A2D00053EB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED17F572B80A2CA0053EB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED17F5E2B80A2CA0053EB56;
+			remoteInfo = "3d-bereal";
+		};
+		CED17F802B80A2D00053EB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED17F572B80A2CA0053EB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED17F5E2B80A2CA0053EB56;
+			remoteInfo = "3d-bereal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C597169073B66BFCC50A661 /* Pods-3d-bereal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3d-bereal.release.xcconfig"; path = "Target Support Files/Pods-3d-bereal/Pods-3d-bereal.release.xcconfig"; sourceTree = "<group>"; };
+		CED17F5F2B80A2CA0053EB56 /* 3d-bereal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3d-bereal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED17F622B80A2CA0053EB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED17F642B80A2CA0053EB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CED17F662B80A2CA0053EB56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED17F692B80A2CA0053EB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED17F6B2B80A2D00053EB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED17F6E2B80A2D00053EB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED17F702B80A2D00053EB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED17F752B80A2D00053EB56 /* 3d-berealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3d-berealTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED17F792B80A2D00053EB56 /* _d_berealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_berealTests.swift; sourceTree = "<group>"; };
+		CED17F7F2B80A2D00053EB56 /* 3d-berealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3d-berealUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED17F832B80A2D00053EB56 /* _d_berealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_berealUITests.swift; sourceTree = "<group>"; };
+		CED17F852B80A2D10053EB56 /* _d_berealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_berealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CED17F922B814BA10053EB56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6B1B87E678447214301ADAD /* Pods_3d_bereal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3d_bereal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4856B645BB756E0886822D /* Pods-3d-bereal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3d-bereal.debug.xcconfig"; path = "Target Support Files/Pods-3d-bereal/Pods-3d-bereal.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED17F5C2B80A2CA0053EB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDFDB281E3026F1EBF17685 /* Pods_3d_bereal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED17F722B80A2D00053EB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED17F7C2B80A2D00053EB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D305060801826BFB3690B5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B1B87E678447214301ADAD /* Pods_3d_bereal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1DDF5F6CA0D940BCF3A437A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB4856B645BB756E0886822D /* Pods-3d-bereal.debug.xcconfig */,
+				7C597169073B66BFCC50A661 /* Pods-3d-bereal.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CED17F562B80A2CA0053EB56 = {
+			isa = PBXGroup;
+			children = (
+				CED17F612B80A2CA0053EB56 /* 3d-bereal */,
+				CED17F782B80A2D00053EB56 /* 3d-berealTests */,
+				CED17F822B80A2D00053EB56 /* 3d-berealUITests */,
+				CED17F602B80A2CA0053EB56 /* Products */,
+				A1DDF5F6CA0D940BCF3A437A /* Pods */,
+				2D305060801826BFB3690B5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED17F602B80A2CA0053EB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED17F5F2B80A2CA0053EB56 /* 3d-bereal.app */,
+				CED17F752B80A2D00053EB56 /* 3d-berealTests.xctest */,
+				CED17F7F2B80A2D00053EB56 /* 3d-berealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED17F612B80A2CA0053EB56 /* 3d-bereal */ = {
+			isa = PBXGroup;
+			children = (
+				CED17F922B814BA10053EB56 /* GoogleService-Info.plist */,
+				CED17F622B80A2CA0053EB56 /* AppDelegate.swift */,
+				CED17F642B80A2CA0053EB56 /* SceneDelegate.swift */,
+				CED17F662B80A2CA0053EB56 /* ViewController.swift */,
+				CED17F682B80A2CA0053EB56 /* Main.storyboard */,
+				CED17F6B2B80A2D00053EB56 /* Assets.xcassets */,
+				CED17F6D2B80A2D00053EB56 /* LaunchScreen.storyboard */,
+				CED17F702B80A2D00053EB56 /* Info.plist */,
+			);
+			path = "3d-bereal";
+			sourceTree = "<group>";
+		};
+		CED17F782B80A2D00053EB56 /* 3d-berealTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED17F792B80A2D00053EB56 /* _d_berealTests.swift */,
+			);
+			path = "3d-berealTests";
+			sourceTree = "<group>";
+		};
+		CED17F822B80A2D00053EB56 /* 3d-berealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED17F832B80A2D00053EB56 /* _d_berealUITests.swift */,
+				CED17F852B80A2D10053EB56 /* _d_berealUITestsLaunchTests.swift */,
+			);
+			path = "3d-berealUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED17F5E2B80A2CA0053EB56 /* 3d-bereal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED17F892B80A2D10053EB56 /* Build configuration list for PBXNativeTarget "3d-bereal" */;
+			buildPhases = (
+				05050EDBD89FC928DB5FAB1C /* [CP] Check Pods Manifest.lock */,
+				CED17F5B2B80A2CA0053EB56 /* Sources */,
+				CED17F5C2B80A2CA0053EB56 /* Frameworks */,
+				CED17F5D2B80A2CA0053EB56 /* Resources */,
+				338DD25406B7085901127F1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3d-bereal";
+			productName = "3d-bereal";
+			productReference = CED17F5F2B80A2CA0053EB56 /* 3d-bereal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED17F742B80A2D00053EB56 /* 3d-berealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED17F8C2B80A2D10053EB56 /* Build configuration list for PBXNativeTarget "3d-berealTests" */;
+			buildPhases = (
+				CED17F712B80A2D00053EB56 /* Sources */,
+				CED17F722B80A2D00053EB56 /* Frameworks */,
+				CED17F732B80A2D00053EB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED17F772B80A2D00053EB56 /* PBXTargetDependency */,
+			);
+			name = "3d-berealTests";
+			productName = "3d-berealTests";
+			productReference = CED17F752B80A2D00053EB56 /* 3d-berealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED17F7E2B80A2D00053EB56 /* 3d-berealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED17F8F2B80A2D10053EB56 /* Build configuration list for PBXNativeTarget "3d-berealUITests" */;
+			buildPhases = (
+				CED17F7B2B80A2D00053EB56 /* Sources */,
+				CED17F7C2B80A2D00053EB56 /* Frameworks */,
+				CED17F7D2B80A2D00053EB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED17F812B80A2D00053EB56 /* PBXTargetDependency */,
+			);
+			name = "3d-berealUITests";
+			productName = "3d-berealUITests";
+			productReference = CED17F7F2B80A2D00053EB56 /* 3d-berealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED17F572B80A2CA0053EB56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CED17F5E2B80A2CA0053EB56 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CED17F742B80A2D00053EB56 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CED17F5E2B80A2CA0053EB56;
+					};
+					CED17F7E2B80A2D00053EB56 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CED17F5E2B80A2CA0053EB56;
+					};
+				};
+			};
+			buildConfigurationList = CED17F5A2B80A2CA0053EB56 /* Build configuration list for PBXProject "3d-bereal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED17F562B80A2CA0053EB56;
+			productRefGroup = CED17F602B80A2CA0053EB56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED17F5E2B80A2CA0053EB56 /* 3d-bereal */,
+				CED17F742B80A2D00053EB56 /* 3d-berealTests */,
+				CED17F7E2B80A2D00053EB56 /* 3d-berealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED17F5D2B80A2CA0053EB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED17F6F2B80A2D00053EB56 /* LaunchScreen.storyboard in Resources */,
+				CED17F932B814BA10053EB56 /* GoogleService-Info.plist in Resources */,
+				CED17F6C2B80A2D00053EB56 /* Assets.xcassets in Resources */,
+				CED17F6A2B80A2CA0053EB56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED17F732B80A2D00053EB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED17F942B814BA20053EB56 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED17F7D2B80A2D00053EB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED17F952B814BA20053EB56 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05050EDBD89FC928DB5FAB1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3d-bereal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		338DD25406B7085901127F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3d-bereal/Pods-3d-bereal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3d-bereal/Pods-3d-bereal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3d-bereal/Pods-3d-bereal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED17F5B2B80A2CA0053EB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED17F672B80A2CA0053EB56 /* ViewController.swift in Sources */,
+				CED17F632B80A2CA0053EB56 /* AppDelegate.swift in Sources */,
+				CED17F652B80A2CA0053EB56 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED17F712B80A2D00053EB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED17F7A2B80A2D00053EB56 /* _d_berealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED17F7B2B80A2D00053EB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED17F862B80A2D10053EB56 /* _d_berealUITestsLaunchTests.swift in Sources */,
+				CED17F842B80A2D00053EB56 /* _d_berealUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED17F772B80A2D00053EB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED17F5E2B80A2CA0053EB56 /* 3d-bereal */;
+			targetProxy = CED17F762B80A2D00053EB56 /* PBXContainerItemProxy */;
+		};
+		CED17F812B80A2D00053EB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED17F5E2B80A2CA0053EB56 /* 3d-bereal */;
+			targetProxy = CED17F802B80A2D00053EB56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED17F682B80A2CA0053EB56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED17F692B80A2CA0053EB56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED17F6D2B80A2D00053EB56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED17F6E2B80A2D00053EB56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED17F872B80A2D10053EB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED17F882B80A2D10053EB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED17F8A2B80A2D10053EB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4856B645BB756E0886822D /* Pods-3d-bereal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949F9F968Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "3d-bereal/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dbereal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED17F8B2B80A2D10053EB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C597169073B66BFCC50A661 /* Pods-3d-bereal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 949F9F968Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "3d-bereal/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dbereal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED17F8D2B80A2D10053EB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.-d-berealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3d-bereal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3d-bereal";
+			};
+			name = Debug;
+		};
+		CED17F8E2B80A2D10053EB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.-d-berealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3d-bereal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3d-bereal";
+			};
+			name = Release;
+		};
+		CED17F902B80A2D10053EB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.-d-berealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3d-bereal";
+			};
+			name = Debug;
+		};
+		CED17F912B80A2D10053EB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "w.-d-berealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3d-bereal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED17F5A2B80A2CA0053EB56 /* Build configuration list for PBXProject "3d-bereal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED17F872B80A2D10053EB56 /* Debug */,
+				CED17F882B80A2D10053EB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED17F892B80A2D10053EB56 /* Build configuration list for PBXNativeTarget "3d-bereal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED17F8A2B80A2D10053EB56 /* Debug */,
+				CED17F8B2B80A2D10053EB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED17F8C2B80A2D10053EB56 /* Build configuration list for PBXNativeTarget "3d-berealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED17F8D2B80A2D10053EB56 /* Debug */,
+				CED17F8E2B80A2D10053EB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED17F8F2B80A2D10053EB56 /* Build configuration list for PBXNativeTarget "3d-berealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED17F902B80A2D10053EB56 /* Debug */,
+				CED17F912B80A2D10053EB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED17F572B80A2CA0053EB56 /* Project object */;
+}
